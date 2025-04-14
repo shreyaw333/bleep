@@ -102,7 +102,7 @@ def main():
     st.title("✨ BleepAI ✨")
     st.write("Hello! Click on the voice recorder to interact with me. How can I assist you today?")
 
-    api_key = api_key = st.secrets["openai"]["api_key"]
+    api_key = st.secrets["openai"]["api_key"]
 
     # Initialize session state for history
     if "chat_history" not in st.session_state:
